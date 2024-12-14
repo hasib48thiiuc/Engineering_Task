@@ -1,0 +1,14 @@
+@NotesWebAPI_HostAddress = http://localhost:5097
+
+GET {{NotesWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+# Test POST Request
+POST http://localhost:5174/api/auth/register
+Content-Type: application/json
+
+{
+  "title": "Sample Note",
+  "content": "This is a test note",
+  "type": "regular"
+}
+###
